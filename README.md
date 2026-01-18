@@ -1,4 +1,5 @@
 Packages:
+
   Niri
   noctalia-shell
   kitty
