@@ -1,0 +1,18 @@
+Packages:
+  Niri
+  noctalia-shell
+  kitty
+  fuzzel
+  ttf-jetbrains-mono-nerd
+  xwayland-satellite
+  thunar
+  thunar-archive-plugin
+  thunar-media-tags-plugin
+  thunar-volman
+  qbittorrent
+  npm
+  neovim
+  gdu
+  discord
+  coolercontrol
+  coolercontrold
