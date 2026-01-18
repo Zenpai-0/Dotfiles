@@ -190,7 +190,7 @@ layout {
 
         // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
     }
-
+    
     // You can enable drop shadows for windows.
     shadow {
         // Uncomment the next line to enable shadows.
@@ -237,7 +237,6 @@ spawn-sh-at-startup "qs -c ~/.config/quickshell/noctalia-shell/"
 //spawn-sh-at-startup "sleep 2 && swaybg -i ~/Pictures/Wallpapers/wallhaven-83pmmy.jpg"
 
 spawn-sh-at-startup "xwayland-satellite"
-spawn-at-startup "gammastep" "-l" "45.5:-73.6" "-t" "6500:4900"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -305,8 +304,8 @@ window-rule {
 
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
-/-window-rule {
-    geometry-corner-radius 12
+window-rule {
+    geometry-corner-radius 7
     clip-to-geometry true
 }
 
