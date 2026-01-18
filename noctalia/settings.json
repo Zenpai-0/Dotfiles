@@ -24,12 +24,12 @@
         "mprisBlacklist": [
         ],
         "preferredPlayer": "",
-        "visualizerType": "linear",
+        "visualizerType": "wave",
         "volumeOverdrive": false,
         "volumeStep": 5
     },
     "bar": {
-        "backgroundOpacity": 0.66,
+        "backgroundOpacity": 0.37,
         "capsuleOpacity": 0.75,
         "density": "comfortable",
         "exclusive": true,
@@ -95,7 +95,7 @@
                     "colorName": "onSurface",
                     "hideWhenIdle": false,
                     "id": "AudioVisualizer",
-                    "width": 200
+                    "width": 300
                 },
                 {
                     "blacklist": [
@@ -105,10 +105,11 @@
                     "hidePassive": false,
                     "id": "Tray",
                     "pinned": [
-                        "Cachy-Update",
-                        "Discord",
-                        "Connected. Montreal, Canada"
+                        "Discord"
                     ]
+                },
+                {
+                    "id": "NightLight"
                 },
                 {
                     "hideWhenZero": false,
@@ -327,7 +328,7 @@
         "forced": false,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
-        "nightTemp": "4000"
+        "nightTemp": "4476"
     },
     "notifications": {
         "backgroundOpacity": 1,
