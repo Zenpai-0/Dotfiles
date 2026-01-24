@@ -78,14 +78,14 @@
             ],
             "right": [
                 {
-                    "displayMode": "alwaysHide",
-                    "id": "VPN"
-                },
-                {
-                    "colorName": "onSurface",
+                    "colorName": "error",
                     "hideWhenIdle": false,
                     "id": "AudioVisualizer",
-                    "width": 300
+                    "width": 150
+                },
+                {
+                    "displayMode": "onhover",
+                    "id": "VPN"
                 },
                 {
                     "blacklist": [
@@ -95,7 +95,9 @@
                     "hidePassive": false,
                     "id": "Tray",
                     "pinned": [
-                        "Discord"
+                        "Discord",
+                        "Connected. Montreal, Canada",
+                        "steam"
                     ]
                 },
                 {
@@ -316,7 +318,7 @@
         "weatherShowEffects": true
     },
     "network": {
-        "bluetoothDetailsViewMode": "grid",
+        "bluetoothDetailsViewMode": "list",
         "bluetoothHideUnnamedDevices": true,
         "bluetoothRssiPollIntervalMs": 10000,
         "bluetoothRssiPollingEnabled": false,
@@ -326,7 +328,7 @@
     "nightLight": {
         "autoSchedule": true,
         "dayTemp": "6500",
-        "enabled": true,
+        "enabled": false,
         "forced": false,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",

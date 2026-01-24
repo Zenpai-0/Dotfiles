@@ -141,7 +141,7 @@ layout {
         // If you enable the border, you probably want to disable the focus ring.
         //off
 
-        width 2.5
+        width 2
         active-color "#ffc87f"
         inactive-color "#505050"
 
@@ -209,7 +209,7 @@ spawn-sh-at-startup "qs -c ~/.config/quickshell/noctalia-shell/"
 //spawn-sh-at-startup "sleep 2 && swaybg -i ~/Pictures/Wallpapers/wallhaven-83pmmy.jpg"
 
 spawn-sh-at-startup "xwayland-satellite"
-
+spawn-at-startup "systemctl --user set-environment DISPLAY=:0"
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 
@@ -251,6 +251,11 @@ window-rule {
 }
 
 window-rule {
+    match app-id="steam"
+    open-maximized true
+}
+
+window-rule {
     // This regular expression is intentionally made as specific as possible,
     // since this is the default config, and we want no false positives.
     // You can get away with just app-id="wezterm" if you want.
@@ -258,14 +263,6 @@ window-rule {
     default-column-width {}
 }
 
-// Open the Firefox picture-in-picture player as floating by default.
-window-rule {
-    // This app-id regular expression will work for both:
-    // - host Firefox (app-id is "firefox")
-    // - Flatpak Firefox (app-id is "org.mozilla.firefox")
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
-    open-floating true
-}
 
 // Example: block out two password managers from screen capture.
 // (This example rule is commented out with a "/-" in front.)
@@ -282,10 +279,9 @@ window-rule {
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
 window-rule {
-    geometry-corner-radius 7
+    geometry-corner-radius 2
     clip-to-geometry true
 }
-
 
 
 binds {
