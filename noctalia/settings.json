@@ -25,13 +25,13 @@
         "mprisBlacklist": [
         ],
         "preferredPlayer": "",
-        "visualizerType": "linear",
+        "visualizerType": "mirrored",
         "volumeFeedback": false,
         "volumeOverdrive": false,
         "volumeStep": 5
     },
     "bar": {
-        "backgroundOpacity": 0.37,
+        "backgroundOpacity": 0.55,
         "capsuleOpacity": 0.75,
         "density": "comfortable",
         "exclusive": true,
@@ -78,13 +78,13 @@
             ],
             "right": [
                 {
-                    "colorName": "error",
+                    "colorName": "onSurface",
                     "hideWhenIdle": false,
                     "id": "AudioVisualizer",
                     "width": 150
                 },
                 {
-                    "displayMode": "onhover",
+                    "displayMode": "alwaysShow",
                     "id": "VPN"
                 },
                 {
@@ -142,13 +142,13 @@
                     "useDistroLogo": false
                 },
                 {
-                    "customFont": "",
+                    "customFont": "JetBrainsMono NF ExtraBold",
                     "formatHorizontal": "h:mm AP",
                     "formatVertical": "HH mm - dd MM",
                     "id": "Clock",
                     "tooltipFormat": "HH:mm ddd, MMM dd",
-                    "useCustomFont": false,
-                    "usePrimaryColor": false
+                    "useCustomFont": true,
+                    "usePrimaryColor": true
                 }
             ]
         }
@@ -328,7 +328,7 @@
     "nightLight": {
         "autoSchedule": true,
         "dayTemp": "6500",
-        "enabled": false,
+        "enabled": true,
         "forced": false,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",

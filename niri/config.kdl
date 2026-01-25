@@ -250,6 +250,8 @@ window-rule {
     open-fullscreen true
 }
 
+
+
 window-rule {
     match app-id="steam"
     open-maximized true
