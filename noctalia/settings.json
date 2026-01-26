@@ -25,15 +25,15 @@
         "mprisBlacklist": [
         ],
         "preferredPlayer": "",
-        "visualizerType": "mirrored",
+        "visualizerType": "wave",
         "volumeFeedback": false,
         "volumeOverdrive": false,
         "volumeStep": 5
     },
     "bar": {
-        "backgroundOpacity": 0.55,
-        "capsuleOpacity": 0.75,
-        "density": "comfortable",
+        "backgroundOpacity": 0.5700000000000001,
+        "capsuleOpacity": 1,
+        "density": "spacious",
         "exclusive": true,
         "floating": true,
         "hideOnOverview": false,
